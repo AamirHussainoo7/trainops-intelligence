@@ -1,0 +1,29 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Test artifacts
+.coverage
+htmlcov/
+
+# Output and temp files
+output/
+data/exports/*.xlsx
+data/exports/*.csv
